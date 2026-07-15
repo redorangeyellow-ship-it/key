@@ -40,8 +40,6 @@ group(main) using keys
 + [ALT K_A] > 'ą'
 + [ALT K_D] > 'ð'
 c Are alt options working?
-+ [ALT K_O] > 'o' U+0328
-+ [ALT SHIFT K_O] > 'O' U+0328
 
 + [K_BKQUOTE] > U+0328 
 + [K_1] > U+0031 
@@ -134,8 +132,6 @@ c Are alt options working?
 c Special combinations with ogonek
 + [T_lowery_hook] > 'y̨'
 + [T_Y_Hook] > 'Y̨'
-+ [T_ADots_Hook] >'Ą̈'
-+ [T_loweradots_hook] > 'ą̈'
 + [T_ARing_hook] > 'Ą̊'
 + [T_lower_ARing_hook] > 'ą̊'
 
