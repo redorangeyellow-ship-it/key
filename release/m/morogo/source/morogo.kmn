@@ -1,0 +1,50 @@
+c Keyman keyboard source file for Morogo custom layout
+store(&VERSION) '10.0'
+store(&NAME) 'Morogo Custom'
+store(&TARGETS) 'any'
+store(&VISUALKEYBOARD) 'morogo.kvks'
+
+c Define the dead key states
+define(dk_acute)
+define(dk_grave)
+define(dk_diaeresis)
+
+begin Unicode > use(main)
+
+group(main) using keys
+
+c --- Dead Key Triggers ---
++ "'" > deadkey(dk_acute)     c Apostrophe triggers Acute (´)
++ "`" > deadkey(dk_grave)     c Backtick triggers Grave (`)
++ '"' > deadkey(dk_diaeresis) c Double quote triggers Diaeresis (¨)
+
+c --- Dead Key Matching Rules ---
+
+c Acute Rules
+deadkey(dk_acute) + "e" > "é"
+deadkey(dk_acute) + "i" > "í"
+deadkey(dk_acute) + "o" > "ó"
+
+c Grave Rules
+deadkey(dk_grave) + "e" > "è"
+deadkey(dk_grave) + "i" > "ì"
+deadkey(dk_grave) + "o" > "ò"
+
+c Diaeresis Rules
+deadkey(dk_diaeresis) + "e" > "ë"
+deadkey(dk_diaeresis) + "u" > "ü"
+
+c --- Shifted Rules for Uppercase Characters ---
+c Acute Uppercase
+deadkey(dk_acute) + "E" > "É"
+deadkey(dk_acute) + "I" > "Í"
+deadkey(dk_acute) + "O" > "Ó"
+
+c Grave Uppercase
+deadkey(dk_grave) + "E" > "È"
+deadkey(dk_grave) + "I" > "Ì"
+deadkey(dk_grave) + "O" > "Ò"
+
+c Diaeresis Uppercase
+deadkey(dk_diaeresis) + "E" > "Ë"
+deadkey(dk_diaeresis) + "U" > "Ü"
