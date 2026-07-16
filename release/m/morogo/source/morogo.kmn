@@ -1,6 +1,6 @@
 c Keyman keyboard source file for Morogo custom layout
 store(&VERSION) '10.0'
-store(&NAME) 'Morogo Custom'
+store(&NAME) 'Morogo'
 store(&TARGETS) 'any'
 store(&VISUALKEYBOARD) 'morogo.kvks'
 
