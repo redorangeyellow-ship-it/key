@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProject>
+  <Options>
+    <BuildPath>$PROJECTPATH\build</BuildPath>
+    <CompilerWarningsAsErrors>True</CompilerWarningsAsErrors>
+    <WarnDeprecatedCode>True</WarnDeprecatedCode>
+    <CheckFilenameConventions>True</CheckFilenameConventions>
+    <ProjectType>keyboard</ProjectType>
+  </Options>
+  <Files>
+    <File>
+      <ID>id_keyboard_kmn</ID>
+      <Filename>unojn_kore_kanquy.kmn</Filename>
+      <Filepath>unojn_kore_kanquy.kmn</Filepath>
+      <FileVersion>1.0</FileVersion>
+      <FileType>.kmn</FileType>
+      <Details>
+        <Name>Ũnojñ Kore Kãnquy</Name>
+      </Details>
+    </File>
+    <File>
+      <ID>id_package_kps</ID>
+      <Filename>unojn_kore_kanquy.kps</Filename>
+      <Filepath>unojn_kore_kanquy.kps</Filepath>
+      <FileVersion>1.0</FileVersion>
+      <FileType>.kps</FileType>
+      <Details>
+        <Name>Ũnojñ Kore Kãnquy</Name>
+        <Version>1.0</Version>
+      </Details>
+    </File>
+  </Files>
+</KeymanDeveloperProject>
