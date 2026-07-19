@@ -1,6 +1,13 @@
 store(&VERSION) '10.0'
 store(&NAME) 'Ũnojñ Kore Kãnquy'
 store(&TARGETS) 'any'
+store(&KEYBOARDVERSION) '1.0'
+
+c --- Font Configurations ---
+store(&VISUALKEYBOARD) 'unojn_kore_kanquy.kvks'
+store(&LAYOUTFILE) 'unojn_kore_kanquy.keyman-touch-layout'
+store(&KMW_EMBEDFONT) 'Andika-Regular.ttf'
+store(&KMW_FONT) 'Andika'
 
 begin Unicode > use(main)
 
@@ -88,7 +95,7 @@ dk(1) + [K_J] > 'jm'
 dk(1) + [K_J][K_J] > 'jñ'
 dk(1) + [K_P] > 'ph'
 dk(1) + [K_Q] > 'qu'
-dk(1) + [K_H] > 'ʼ'  c Modifier letter apostrophe (glottal stop)
+dk(1) + [K_H] > 'ʼ'  
 
 c --- Uppercase Dead Key Outputs ---
 dk(2) + [SHIFT K_A] > 'Ã'
@@ -108,4 +115,4 @@ dk(2) + [SHIFT K_J] > 'Jm'
 dk(2) + [SHIFT K_J][SHIFT K_J] > 'Jñ'
 dk(2) + [SHIFT K_P] > 'Ph'
 dk(2) + [SHIFT K_Q] > 'Qu'
-dk(2) + [SHIFT K_H] > 'ʼ'  c Apostrophe remains unchanged
+dk(2) + [SHIFT K_H] > 'ʼ'  
