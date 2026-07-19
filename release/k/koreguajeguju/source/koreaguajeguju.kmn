@@ -1,0 +1,111 @@
+store(&VERSION) '10.0'
+store(&NAME) 'Ũnojñ Kore Kãnquy'
+store(&TARGETS) 'any'
+
+begin Unicode > use(main)
+
+group(main) using keys
+
+c --- Lowercase Base Keys ---
++ [K_Q] > 'q'
++ [K_W] > 'w'
++ [K_E] > 'e'
++ [K_R] > 'r'
++ [K_T] > 't'
++ [K_Y] > 'y'
++ [K_U] > 'u'
++ [K_I] > 'i'
++ [K_O] > 'o'
++ [K_P] > 'p'
+
++ [K_A] > 'a'
++ [K_S] > 's'
++ [K_D] > 'd'
++ [K_F] > 'f'
++ [K_G] > 'g'
++ [K_H] > 'h'
++ [K_J] > 'j'
++ [K_K] > 'k'
++ [K_L] > 'l'
+
++ [K_Z] > 'z'
++ [K_X] > 'x'
++ [K_C] > 'c'
++ [K_V] > 'v'
++ [K_B] > 'b'
++ [K_N] > 'n'
++ [K_M] > 'm'
+
+c --- Uppercase Base Keys ---
++ [SHIFT K_Q] > 'Q'
++ [SHIFT K_W] > 'W'
++ [SHIFT K_E] > 'E'
++ [SHIFT K_R] > 'R'
++ [SHIFT K_T] > 'T'
++ [SHIFT K_Y] > 'Y'
++ [SHIFT K_U] > 'U'
++ [SHIFT K_I] > 'I'
++ [SHIFT K_O] > 'O'
++ [SHIFT K_P] > 'P'
+
++ [SHIFT K_A] > 'A'
++ [SHIFT K_S] > 'S'
++ [SHIFT K_D] > 'D'
++ [SHIFT K_F] > 'F'
++ [SHIFT K_G] > 'G'
++ [SHIFT K_H] > 'H'
++ [SHIFT K_J] > 'J'
++ [SHIFT K_K] > 'K'
++ [SHIFT K_L] > 'L'
+
++ [SHIFT K_Z] > 'Z'
++ [SHIFT K_X] > 'X'
++ [SHIFT K_C] > 'C'
++ [SHIFT K_V] > 'V'
++ [SHIFT K_B] > 'B'
++ [SHIFT K_N] > 'N'
++ [SHIFT K_M] > 'M'
+
+c --- Dead Key Triggers ---
++ [K_COLON] > dk(1)        c Semicolon ';' triggers lowercase dead keys
++ [SHIFT K_COLON] > dk(2)  c Colon ':' triggers uppercase dead keys
+
+c --- Lowercase Dead Key Outputs ---
+dk(1) + [K_A] > 'ã'
+dk(1) + [K_E] > 'ẽ'
+dk(1) + [K_I] > 'ĩ'
+dk(1) + [K_N] > 'ñ'
+dk(1) + [K_O] > 'õ'
+
+dk(1) + [K_U] > 'ù'
+dk(1) + [K_U][K_U] > 'ũ'
+dk(1) + [K_U][K_U][K_U] > 'ʉ'
+dk(1) + [K_U][K_U][K_U][K_U] > 'ʉ̃'
+
+dk(1) + [K_C] > 'ch'
+dk(1) + [K_C][K_C] > 'cu'
+dk(1) + [K_J] > 'jm'
+dk(1) + [K_J][K_J] > 'jñ'
+dk(1) + [K_P] > 'ph'
+dk(1) + [K_Q] > 'qu'
+dk(1) + [K_H] > 'ʼ'  c Modifier letter apostrophe (glottal stop)
+
+c --- Uppercase Dead Key Outputs ---
+dk(2) + [SHIFT K_A] > 'Ã'
+dk(2) + [SHIFT K_E] > 'Ẽ'
+dk(2) + [SHIFT K_I] > 'Ĩ'
+dk(2) + [SHIFT K_N] > 'Ñ'
+dk(2) + [SHIFT K_O] > 'Õ'
+
+dk(2) + [SHIFT K_U] > 'Ù'
+dk(2) + [SHIFT K_U][SHIFT K_U] > 'Ũ'
+dk(2) + [SHIFT K_U][SHIFT K_U][SHIFT K_U] > 'Ʉ'
+dk(2) + [SHIFT K_U][SHIFT K_U][SHIFT K_U][SHIFT K_U] > 'Ʉ̃'
+
+dk(2) + [SHIFT K_C] > 'Ch'
+dk(2) + [SHIFT K_C][SHIFT K_C] > 'Cu'
+dk(2) + [SHIFT K_J] > 'Jm'
+dk(2) + [SHIFT K_J][SHIFT K_J] > 'Jñ'
+dk(2) + [SHIFT K_P] > 'Ph'
+dk(2) + [SHIFT K_Q] > 'Qu'
+dk(2) + [SHIFT K_H] > 'ʼ'  c Apostrophe remains unchanged
