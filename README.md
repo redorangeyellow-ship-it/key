@@ -1,4 +1,4 @@
-# Open Source Keyman keyboards
+# Open Source  keyboards
 
 ## Table of Contents
 - [File Layout](#file-layout)
