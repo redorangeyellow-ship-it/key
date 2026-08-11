@@ -60,7 +60,12 @@
             "key": [
               {
                 "id": "K_Q",
-                "text": "q"
+                "text": "kw",
+                "sk": [
+                  {
+                    "text": "q",
+                    "id": "K_COMMA"
+                  },
               },
               {
                 "id": "K_W",
