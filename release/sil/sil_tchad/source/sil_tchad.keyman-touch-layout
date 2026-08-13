@@ -341,6 +341,12 @@
                 ]
               },
               {
+                    "text": "ł",
+                    "id": "U_00F1"
+                  }
+                ]
+              },
+              {
                 "id": "U_2019",
                 "text": "’",
                 "width": ""
@@ -805,6 +811,14 @@
                 "id": "K_L",
                 "text": "L",
                 "nextlayer": "default"
+                "sk": [
+                  {
+                    "text": "ł",
+                    "id": "U_0141",
+                    "nextlayer": "default"
+                  }
+                ]
+              },
               },
               {
                 "id": "U_A78C",
