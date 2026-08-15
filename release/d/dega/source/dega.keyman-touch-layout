@@ -331,44 +331,41 @@
             "key": [
               {
                 "id": "K_Q",
-                "text": "Q",
+                "text": "è",
                 "pad": "75"
               },
               {
                 "id": "K_W",
-                "text": "W"
+                "text": "à"
               },
               {
                 "id": "K_E",
-                "text": "E"
               },
               {
                 "id": "K_R",
-                "text": "R"
+                "text": "ò"
               },
               {
                 "id": "K_T",
-                "text": "T"
               },
               {
                 "id": "K_Y",
-                "text": "Y"
               },
               {
                 "id": "K_U",
-                "text": "U"
+                "text": "ý
               },
               {
                 "id": "K_I",
-                "text": "I"
+                "text": "á"
               },
               {
                 "id": "K_O",
-                "text": "O"
+                "text": "é"
               },
               {
                 "id": "K_P",
-                "text": "P"
+                "text": "ñ"
               },
               {
                 "id": "K_LBRKT",
@@ -395,35 +392,34 @@
               },
               {
                 "id": "K_A",
-                "text": "A"
+                "text": "ç"
               },
               {
                 "id": "K_S",
-                "text": "S"
               },
               {
                 "id": "K_D",
-                "text": "D"
+                "text": ""
               },
               {
                 "id": "K_F",
-                "text": "F"
+                "text": "ğ"
               },
               {
                 "id": "K_G",
-                "text": "G"
+                "text": "ŷ"
               },
               {
                 "id": "K_H",
-                "text": "H"
+                "text": "â"
               },
               {
                 "id": "K_J",
-                "text": "J"
+                "text": "ê"
               },
               {
                 "id": "K_K",
-                "text": "K"
+                "text": "ô"
               },
               {
                 "id": "K_L",
@@ -439,7 +435,7 @@
               },
               {
                 "id": "K_BKSLASH",
-                "text": "|"
+                "text": ""
               }
             ]
           },
@@ -455,31 +451,31 @@
               },
               {
                 "id": "K_Z",
-                "text": "Z"
+                "text": "ț"
               },
               {
                 "id": "K_X",
-                "text": "X"
+                "text": "ș"
               },
               {
                 "id": "K_C",
-                "text": "C"
+                "text": "û"
               },
               {
                 "id": "K_V",
-                "text": "V"
+                "text": "î"
               },
               {
                 "id": "K_B",
-                "text": "B"
+                "text": ""
               },
               {
                 "id": "K_N",
-                "text": "N"
+                "text": "ă"
               },
               {
                 "id": "K_M",
-                "text": "M"
+                "text": "þ"
               },
               {
                 "id": "K_COMMA",
