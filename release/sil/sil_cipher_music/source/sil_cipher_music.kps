@@ -107,6 +107,7 @@
       <Version>1.1.1</Version>
       <Languages>
         <Language ID="id">Indonesian</Language>
+        <Language ID="cmn">Chinese</Language>
       </Languages>
     </Keyboard>
   </Keyboards>
