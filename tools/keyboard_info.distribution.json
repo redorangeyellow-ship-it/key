@@ -1,8 +1,15 @@
 { 
+  
   "$schema": "http://json-schema.org/draft-04/schema#",
+  
   "type": "object",
+  
   "allOf": [
+    
     { "$ref": "/keyboard_info.source.json#/definitions/KeyboardInfo" },
+    
     { "required": [ "id", "name", "license", "languages", "lastModifiedDate", "platformSupport" ] }
+    
   ]
+  
 }
