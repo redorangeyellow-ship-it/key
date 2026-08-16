@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-
-
 source ../external.sh
 
 die() { echo "$*" 1>&2 ; exit 1; }
