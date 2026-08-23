@@ -558,7 +558,7 @@
                 "text": "*Shift*",
                 "width": "120",
                 "sp": "2",
-                "nextlayer": "default"
+                "nextlayer": "shift"
               },
               {
                 "id": "K_Z",
