@@ -22,11 +22,11 @@
 Keyboards are grouped into three folders:
 
   * `release` - keyboards with full source that pass our stringent quality
-    checks, Unicode only, generally no PUA
+    checks, Unicode only.
   * `legacy` - binary distributions of keyboards, migrated from Tavultesoft
     servers, Unicode and non-Unicode
   * `experimental` - keyboards that have not yet passed the quality check,
-    available from the 'experimental' category in Keyman apps with Keyman 10 and
+    available from the 'experimental' category in <mark>Keyman</mark> apps with <mark>Keyman</mark> 10 and
     later. Unicode only, but PUA is acceptable.
 
 Within each of the folders, keyboards are further grouped by first letter or by
@@ -63,8 +63,8 @@ After two to three rounds of confirmation and testing, you are welcome to create
 To update a keyboard in this repository, follow these steps:
 
 1. Create a fork from this repository (Update your fork of the keyboards repository if you already have one)
-  - The Fork button is located near the top of the repository, then follow the instructions [here](https://help.keyman.com/developer/keyboards/advanced/), and come back.
-  - Update the forked repository [here](https://help.keyman.com/developer/keyboards/github/step-3#toc-updating-your-fork), and proceed to the next step.
+  - The <mark>Fork button</mark> is located near the top of the repository, then follow the instructions [here](https://help.keyman.com/developer/keyboards/advanced/), and come back.
+  - Update <mark>the forked</mark> repository [here](https://help.keyman.com/developer/keyboards/github/step-3#toc-updating-your-fork), and proceed to the next step.
 
 2. Download a copy of the latest files that are in your forked repository as a ZIP file.
   - Go to `https://github.com/[YourGitHubName]/keyboards/` (after replacing `[YourGitHubName]` with your actual GitHub name)
@@ -86,16 +86,16 @@ To update a keyboard in this repository, follow these steps:
   - Also delete the .kpj.user <b>(but don’t delete the .kpj file!)</b>.
 
 4. Submit your updates as a new pull request
-  - Go back to GitHub
-  - Create a new branch (from master) with a short name to represent the pull request. For example, ausephon-updates...
+  - Go back to <mark>GitHub</mark>
+  - Create a new branch (from master) with a short name to represent the <mark>pull request</mark>. For example, ausephon-updates...
   - Navigate to the target folder location (click on release, then on a, and you’ll see the ausephon folder)
   - Click on “Add file”, then “Upload files”
-  - Drag the “ausephon” folder from your Windows Explorer window, and drop it on the GitHub window
-  - Follow the steps to create a pull request, although the commit message will be something like `[ausephon] updated keyboard`
+  - Drag the “ausephon” folder from your <mark>Windows Explorer<mark> window, and drop it on the GitHub window
+  - Follow the steps to create a <mark>pull request</mark>, although the <mark>commit message</mark> will be something like `[ausephon] updated keyboard`
 
 ### Include font files
 
-If the fonts are used on multiple keyboards, the font files must be placed under the `shared folder`. Follow through this [documentation](https://help.keyman.com/developer/keyboards/github/step-2#toc-including-fonts-in-your-keyboard-package). However, if you are editing the keyboard package within the folders of the forked repository (skip step 2 above) only specifying the existing shared-font location in the package is necessary.
+If the <mark>fonts</mark> are used on </mark>multiple keyboards</mark>, the <mark>font</mark> files must be placed under the `shared folder`. Follow through this [documentation](https://help.keyman.com/developer/keyboards/github/step-2#toc-including-fonts-in-your-keyboard-package). However, if you are editing the keyboard package within the folders of the forked repository (skip step 2 above) only specifying the existing shared-font location in the package is necessary.
   
 ### Documentation
 
@@ -109,7 +109,7 @@ If the guides are not enough to provide you with a complete keyboard, don't be a
 ### Prerequisites
 
 Windows:
-  * Git for Windows (or MinGW)
+  * Git for <mark>Windows</mark> (or MinGW)
   * You will need to use **Git Bash** or equivalent to build (not tested with
     Cygwin), not Windows Command Prompt or PowerShell.
   * You can also use **WSL2** (Bash on Ubuntu on Windows). Beware of line-ending
@@ -177,7 +177,7 @@ Dependencies:
 
 ## Deprecated Keyboards
 
-If a keyboard has been replaced by another keyboard, include a DEPRECATED.md file in the folder referencing the new keyboard name.
+If a keyboard has been <mark>replaced</mark> by another keyboard, include a DEPRECATED.md file in the folder referencing the new keyboard name.
 
 ## Common Links
 
