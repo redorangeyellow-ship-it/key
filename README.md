@@ -1,6 +1,4 @@
 hcesar keyboard
-==============
-
 © 2022 SIL International
 
 Version 1.0
