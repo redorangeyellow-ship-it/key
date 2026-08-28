@@ -46,14 +46,6 @@
                 "id": "K_EQUAL",
                 "text": "="
               },
-              {
-                "id": "K_BKSP",
-                "text": "*BkSp*",
-                "width": "100",
-                "sp": "1"
-              }
-            ]
-          },
           {
             "id": 2,
             "key": [
