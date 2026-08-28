@@ -1,0 +1,82 @@
+c Hebuen Transliteration Keyboard for Keyman
+store(&VERSION) '10.0'
+store(&NAME) 'Hebuen'
+store(&TARGETS) 'any'
+store(&VISUALKEYBOARD) 'hebuen.kvks'
+store(&LAYOUTFILE) 'hebuen.keyman-touch-layout'
+
+begin Unicode > use(main)
+
+group(main) using keys
+
+c ------------------------------------------------------------------
+c UN-SHIFTED LAYER (Lowercase Rows)
+c ------------------------------------------------------------------
+
+c Top Row
++ [K_Q] > 'q'
++ [K_W] > 'w'
++ [K_E] > 'e'
++ [K_R] > 'r'
++ [K_T] > 't'
++ [K_Y] > 'y'
++ [K_U] > 'u'
++ [K_I] > 'i'
++ [K_O] > 'o'
++ [K_P] > 'p'
+
+c Home Row
++ [K_A] > 'a'
++ [K_S] > 's'
++ [K_D] > 'd'
++ [K_F] > 'f'
++ [K_G] > 'g'
++ [K_H] > 'h'
++ [K_J] > 'j'
++ [K_K] > 'k'
++ [K_L] > 'l'
+
+c Bottom Row
++ [K_Z] > 'z'
++ [K_X] > 'x'
++ [K_C] > 'c'
++ [K_V] > 'v'
++ [K_B] > 'b'
++ [K_N] > 'n'
++ [K_M] > 'm'
+
+c ------------------------------------------------------------------
+c SHIFTED LAYER (Uppercase Rows)
+c ------------------------------------------------------------------
+
+c Shifted Top Row
++ [SHIFT K_Q] > 'Q'
++ [SHIFT K_W] > 'W'
++ [SHIFT K_E] > 'E'
++ [SHIFT K_R] > 'R'
++ [SHIFT K_T] > 'T'
++ [SHIFT K_Y] > 'Y'
++ [SHIFT K_U] > 'U'
++ [SHIFT K_I] > 'I'
++ [SHIFT K_O] > 'O'
++ [SHIFT K_P] > 'P'
+
+c Shifted Home Row
++ [SHIFT K_A] > 'A'
++ [SHIFT K_S] > 'S'
++ [SHIFT K_D] > 'D'
++ [SHIFT K_F] > 'F'
++ [SHIFT K_G] > 'G'
++ [SHIFT K_H] > 'H'
++ [SHIFT K_J] > 'J'
++ [SHIFT K_K] > 'K'
++ [SHIFT K_L] > 'L'
+
+c Shifted Bottom Row
++ [SHIFT K_Z] > 'Z'
++ [SHIFT K_X] > 'X'
++ [SHIFT K_C] > 'C'
++ [SHIFT K_V] > 'V'
++ [SHIFT K_B] > 'B'
++ [SHIFT K_N] > 'N'
++ [SHIFT K_M] > 'M'
