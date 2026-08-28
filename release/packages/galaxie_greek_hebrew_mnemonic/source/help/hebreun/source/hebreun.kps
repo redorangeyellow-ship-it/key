@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <Header>
+    <Name>Hebuen</Name>
+    <Copyright>© 2026 Your Name</Copyright>
+    <Version>1.0</Version>
+    <Author>Your Name</Author>
+  </Header>
+  <Options>
+    <ReadmeFile>readme.htm</ReadmeFile>
+    <WelcomeFile>welcome.htm</WelcomeFile>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+  </Options>
+  <Files>
+    <!-- Compiled Keyboard Files -->
+    <File>
+      <Name>..\build\hebuen.kmx</Name>
+      <Description>Keyboard Hebuen (Desktop)</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>..\build\hebuen.js</Name>
+      <Description>Keyboard Hebuen (Mobile/Touch)</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <!-- Documentation and On-Screen Help Files -->
+    <File>
+      <Name>welcome.htm</Name>
+      <Description>Welcome Page and Layout Guide</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>readme.htm</Name>
+      <Description>Readme Installation Notes</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>Hebuen</Name>
+      <ID>hebuen</ID>
+      <Version>1.0</Version>
+      <Languages>
+        <Language ID="he-Latn">Hebrew (Latin Transliteration)</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>
