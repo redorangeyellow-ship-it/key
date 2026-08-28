@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <Header>
+    <Name>Hebrew Transliteration Keyboard</Name>
+    <Copyright>© 2026 Your Name</Copyright>
+    <Version>1.0</Version>
+  </Header>
+  <Options>
+    <ReadmeFile>readme.htm</ReadmeFile>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+  </Options>
+  <Files>
+    <!-- The compiled keyboard file (compile your .kmn into .kmx/.js first) -->
+    <File>
+      <Name>hebrew_translit.kmx</Name>
+      <Description>Keyboard Hebrew Transliteration</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>hebrew_translit.js</Name>
+      <Description>Keyboard Hebrew Transliteration for Web/Mobile</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <!-- Documentation files -->
+    <File>
+      <Name>welcome.htm</Name>
+      <Description>Welcome page</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>readme.htm</Name>
+      <Description>Readme page</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>Hebrew Transliteration</Name>
+      <ID>hebrew_translit</ID>
+      <Version>1.0</Version>
+      <Languages>
+        <!-- Links the keyboard to Hebrew language tagging -->
+        <Language ID="he-Latn">Hebrew (Latin Transliteration)</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+</Package>
