@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProject>
+  <Options>
+    <BuildPath>$PROJECTPATH\build</BuildPath>
+    <CompilerWarningsAsErrors>True</CompilerWarningsAsErrors>
+    <WarnDeprecatedCode>True</WarnDeprecatedCode>
+    <CheckVersion>True</CheckVersion>
+  </Options>
+  <Files>
+    <!-- Core Keyboard Design Logic Script -->
+    <File>
+      <ID>id_hebuen_kmn</ID>
+      <Filename>hebuen.kmn</Filename>
+      <Filepath>source\hebuen.kmn</Filepath>
+      <FileVersion>1.0</FileVersion>
+      <FileType>.kmn</FileType>
+      <Details>
+        <Name>Hebuen</Name>
+      </Details>
+    </File>
+    <!-- Package Deployment Script -->
+    <File>
+      <ID>id_hebuen_kps</ID>
+      <Filename>hebuen.kps</Filename>
+      <Filepath>source\hebuen.kps</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kps</FileType>
+      <Details>
+        <Name>Hebuen</Name>
+      </Details>
+    </File>
+    <!-- Mobile Touch Subkeys Configuration Layout -->
+    <File>
+      <ID>id_hebuen_layout</ID>
+      <Filename>hebuen.keyman-touch-layout</Filename>
+      <Filepath>source\hebuen.keyman-touch-layout</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.keyman-touch-layout</FileType>
+      <Details/>
+    </File>
+  </Files>
+</KeymanDeveloperProject>
