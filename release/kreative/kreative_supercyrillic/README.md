@@ -1,8 +1,6 @@
 Kreative SuperCyrillic keyboard
 ==============
-
 Version 1.1
-
 Description
 -----------
 Easily type Cyrillic letters for Russian, Belarusian, Ukrainian,
