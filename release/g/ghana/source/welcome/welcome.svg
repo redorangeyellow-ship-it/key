@@ -1,0 +1,53 @@
+<svg xmlns="http://w3.org" viewBox="0 0 1000 310" width="100%" style="background: #1e1e24; font-family: Arial, sans-serif; border-radius: 8px; padding: 10px;">
+  <!-- ROW 1 (10 Keys, Uniform layout) -->
+  <g id="row-1" transform="translate(0, 0)">
+    <g transform="translate(5, 5)"><rect width="90" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="45" y="36" fill="#fff" font-size="18" text-anchor="middle">Q</text></g>
+    <g transform="translate(105, 5)"><rect width="90" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="45" y="36" fill="#fff" font-size="18" text-anchor="middle">W</text></g>
+    <g transform="translate(205, 5)"><rect width="90" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="45" y="36" fill="#fff" font-size="18" text-anchor="middle">E</text><circle cx="80" cy="12" r="3" fill="#00adb5"/></g>
+    <g transform="translate(305, 5)"><rect width="90" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="45" y="36" fill="#fff" font-size="18" text-anchor="middle">R</text></g>
+    <g transform="translate(405, 5)"><rect width="90" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="45" y="36" fill="#fff" font-size="18" text-anchor="middle">T</text></g>
+    <g transform="translate(505, 5)"><rect width="90" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="45" y="36" fill="#fff" font-size="18" text-anchor="middle">Y</text></g>
+    <g transform="translate(605, 5)"><rect width="90" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="45" y="36" fill="#fff" font-size="18" text-anchor="middle">U</text><circle cx="80" cy="12" r="3" fill="#00adb5"/></g>
+    <g transform="translate(705, 5)"><rect width="90" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="45" y="36" fill="#fff" font-size="18" text-anchor="middle">I</text><circle cx="80" cy="12" r="3" fill="#00adb5"/></g>
+    <g transform="translate(805, 5)"><rect width="90" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="45" y="36" fill="#fff" font-size="18" text-anchor="middle">O</text><circle cx="80" cy="12" r="3" fill="#00adb5"/></g>
+    <g transform="translate(905, 5)"><rect width="90" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="45" y="36" fill="#fff" font-size="18" text-anchor="middle">P</text></g>
+  </g>
+
+  <!-- ROW 2 (With "pad": "50" on left and "width/sp": "10" spacer on right) -->
+  <g id="row-2" transform="translate(0, 75)">
+    <g transform="translate(55, 5)"><rect width="88" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="44" y="36" fill="#fff" font-size="18" text-anchor="middle">a</text><circle cx="78" cy="12" r="3" fill="#00adb5"/></g>
+    <g transform="translate(148, 5)"><rect width="88" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="44" y="36" fill="#fff" font-size="18" text-anchor="middle">s</text></g>
+    <g transform="translate(241, 5)"><rect width="88" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="44" y="36" fill="#fff" font-size="18" text-anchor="middle">d</text><circle cx="78" cy="12" r="3" fill="#00adb5"/></g>
+    <g transform="translate(334, 5)"><rect width="88" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="44" y="36" fill="#fff" font-size="18" text-anchor="middle">f</text><circle cx="78" cy="12" r="3" fill="#00adb5"/></g>
+    <g transform="translate(427, 5)"><rect width="88" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="44" y="36" fill="#fff" font-size="18" text-anchor="middle">g</text><circle cx="78" cy="12" r="3" fill="#00adb5"/></g>
+    <g transform="translate(520, 5)"><rect width="88" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="44" y="36" fill="#fff" font-size="18" text-anchor="middle">h</text></g>
+    <g transform="translate(613, 5)"><rect width="88" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="44" y="36" fill="#fff" font-size="18" text-anchor="middle">j</text></g>
+    <g transform="translate(706, 5)"><rect width="88" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="44" y="36" fill="#fff" font-size="18" text-anchor="middle">k</text></g>
+    <g transform="translate(799, 5)"><rect width="88" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="44" y="36" fill="#fff" font-size="18" text-anchor="middle">l</text></g>
+    <!-- T_new_91 Spacer Key -->
+    <g transform="translate(892, 5)"><rect width="10" height="60" rx="2" fill="none" stroke="#444" stroke-dasharray="2,2" opacity="0.4"/></g>
+  </g>
+
+  <!-- ROW 3 (Explicit Widths: Shift=110, BkSp=90, alphanumerics split remaining space) -->
+  <g id="row-3" transform="translate(0, 150)">
+    <g transform="translate(5, 5)"><rect width="110" height="60" rx="6" fill="#4a4e69" stroke="#444" stroke-width="1"/><text x="55" y="35" fill="#fff" font-size="14" font-weight="bold" text-anchor="middle">Shift</text></g>
+    <g transform="translate(121, 5)"><rect width="86" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="43" y="36" fill="#fff" font-size="18" text-anchor="middle">z</text><circle cx="76" cy="12" r="3" fill="#00adb5"/></g>
+    <g transform="translate(213, 5)"><rect width="86" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="43" y="36" fill="#fff" font-size="18" text-anchor="middle">x</text></g>
+    <g transform="translate(305, 5)"><rect width="86" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="43" y="36" fill="#fff" font-size="18" text-anchor="middle">c</text></g>
+    <g transform="translate(397, 5)"><rect width="86" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="43" y="36" fill="#fff" font-size="18" text-anchor="middle">v</text></g>
+    <g transform="translate(489, 5)"><rect width="86" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="43" y="36" fill="#fff" font-size="18" text-anchor="middle">B</text></g>
+    <g transform="translate(581, 5)"><rect width="86" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="43" y="36" fill="#fff" font-size="18" text-anchor="middle">n</text><circle cx="76" cy="12" r="3" fill="#00adb5"/></g>
+    <g transform="translate(673, 5)"><rect width="86" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="43" y="36" fill="#fff" font-size="18" text-anchor="middle">m</text></g>
+    <g transform="translate(765, 5)"><rect width="134" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="67" y="36" fill="#fff" font-size="18" text-anchor="middle">.</text><circle cx="124" cy="12" r="3" fill="#00adb5"/></g>
+    <g transform="translate(905, 5)"><rect width="90" height="60" rx="6" fill="#4a4e69" stroke="#444" stroke-width="1"/><text x="45" y="35" fill="#fff" font-size="14" font-weight="bold" text-anchor="middle">BkSp</text></g>
+  </g>
+
+  <!-- ROW 4 (Explicit Widths: 140, 120, Space=560, 40, Enter=140) -->
+  <g id="row-4" transform="translate(0, 225)">
+    <g transform="translate(5, 5)"><rect width="140" height="60" rx="6" fill="#4a4e69" stroke="#444" stroke-width="1"/><text x="70" y="35" fill="#fff" font-size="14" font-weight="bold" text-anchor="middle">123</text></g>
+    <g transform="translate(151, 5)"><rect width="120" height="60" rx="6" fill="#4a4e69" stroke="#444" stroke-width="1"/><text x="60" y="35" fill="#fff" font-size="14" font-weight="bold" text-anchor="middle">Menu</text></g>
+    <g transform="translate(277, 5)"><rect width="560" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="280" y="35" fill="#888" font-size="14" text-anchor="middle">Space</text></g>
+    <g transform="translate(843, 5)"><rect width="12" height="60" rx="6" fill="#2d2d34" stroke="#444" stroke-width="1"/><text x="6" y="36" fill="#fff" font-size="16" text-anchor="middle">`</text><circle cx="8" cy="8" r="2" fill="#00adb5"/></g>
+    <g transform="translate(861, 5)"><rect width="134" height="60" rx="6" fill="#00adb5" stroke="#00808a" stroke-width="1"/><text x="67" y="35" fill="#fff" font-size="14" font-weight="bold" text-anchor="middle">Enter</text></g>
+  </g>
+</svg>
