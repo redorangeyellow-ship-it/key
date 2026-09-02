@@ -10,52 +10,58 @@
             "key": [
               {
                 "id": "K_Q",
-                "text": "q"
+                "text": "Q"
+                "nextlayer": "default"
               },
               {
                 "id": "K_W",
-                "text": "w"
+                "text": "W"
+                "nextlayer": "default"
               },
               {
                 "id": "K_E",
-                "text": "e",
+                "text": "E",
+                "nextlayer": "default"
                 "sk": [
                   {
-                    "text": "ɛ",
+                    "text": "e",
                     "id": "K_E",
-                    "layer": "rightalt"
                   }
                 ]
               },
               {
                 "id": "K_R",
-                "text": "r"
+                "text": "R"
+                "nextlayer": "default"
               },
               {
                 "id": "K_T",
-                "text": "t"
+                "text": "T"
+                "nextlayer": "default"
               },
               {
                 "id": "K_Y",
-                "text": "y"
+                "text": "Y"
+                "nextlayer": "default"
               },
               {
                 "id": "K_U",
-                "text": "u",
+                "text": "U",
+                "nextlayer": "default"
                 "sk": [
                   {
-                    "text": "ʋ",
+                    "text": "u",
                     "id": "K_U",
-                    "layer": "rightalt"
                   }
                 ]
               },
               {
                 "id": "K_I",
-                "text": "i",
+                "text": "I",
+                "nextlayer": "default"
                 "sk": [
                   {
-                    "text": "ɩ",
+                    "text": "i",
                     "id": "K_I",
                     "layer": "rightalt"
                   }
@@ -63,10 +69,11 @@
               },
               {
                 "id": "K_O",
-                "text": "o",
+                "text": "O",
+                "nextlayer": "default"
                 "sk": [
                   {
-                    "text": "ɔ",
+                    "text": "o",
                     "id": "K_O",
                     "layer": "rightalt"
                   }
@@ -74,7 +81,8 @@
               },
               {
                 "id": "K_P",
-                "text": "p"
+                "text": "P"
+                "nextlayer": "default"
               }
             ]
           },
@@ -185,7 +193,8 @@
               },
               {
                 "id": "K_B",
-                "text": "b"
+                "text": "B"
+                "nextlayer": "default"
               },
               {
                 "id": "K_N",
@@ -866,6 +875,7 @@
           },
           {
             "id": 2,
+                "sk": [
             "key": [
               {
                 "id": "U_00AA",
