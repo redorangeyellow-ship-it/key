@@ -1,20 +1,7 @@
 # Open Source Keyman keyboards
 
-## Table of Contents
-- [File Layout](#file-layout)
-- [Contributing](#contributing)
-  - [Tool](#tool)
-  - [Standard keyboard design](#standard-keyboard-design)
-  - [Keyboard submission guidelines](#keyboard-submission-guidelines)
-  - [Publish your keyboard](#publish-your-keyboard)
-  - [Modify a keyboard layout](#modify-a-keyboard)
-  - [Documentation](#documentation)
-- [Building Keyboards](#building-keyboards)
-  - [Prerequisites](#prerequisites)
-  - [Build instructions](#build-instructions)
-  - [Common `build.sh` parameters](#common-buildsh-parameters)
-- [Deprecated Keyboards](#deprecated-keyboards)
-- [Common Links](#common-links)
+## Table
+#common-links)
 - [Community](#community)
 
 ## File Layout
