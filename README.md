@@ -1,20 +1,7 @@
 # Open Source Keyman keyboards
 
-## Table of Contents
-- [File Layout](#file-layout)
-- [Contributing](#contributing)
-  - [Tool](#tool)
-  - [Standard keyboard design](#standard-keyboard-design)
-  - [Keyboard submission guidelines](#keyboard-submission-guidelines)
-  - [Publish your keyboard](#publish-your-keyboard)
-  - [Modify a keyboard layout](#modify-a-keyboard)
-  - [Documentation](#documentation)
-- [Building Keyboards](#building-keyboards)
-  - [Prerequisites](#prerequisites)
-  - [Build instructions](#build-instructions)
-  - [Common `build.sh` parameters](#common-buildsh-parameters)
-- [Deprecated Keyboards](#deprecated-keyboards)
-- [Common Links](#common-links)
+## Table
+#common-links)
 - [Community](#community)
 
 ## File Layout
@@ -188,3 +175,4 @@ If a keyboard has been replaced by another keyboard, include a DEPRECATED.md fil
 ## Community
 
 We appreciate the effort of reaching out about any issue or suggestion that is beneficial for the community. Share with us on our [community site](https://community.software.sil.org/new-message?groupname=keyman).
+
