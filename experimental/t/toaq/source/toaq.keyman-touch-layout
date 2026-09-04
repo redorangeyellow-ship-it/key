@@ -255,6 +255,7 @@
                 "text": "*BkSp*",
                 "width": 158,
                 "sp": 1
+                "nextlayer": "shift"
               }
             ]
           },
@@ -326,6 +327,7 @@
                 "text": "*Enter*",
                 "width": 158,
                 "sp": 1
+                "nextlayer": "shift"
               }
             ]
           }
@@ -568,12 +570,14 @@
                   {
                     "text": "◌̣",
                     "id": "K_V",
+                    "nextlayer": "default"
                     "layer": "default"
                   },
                   {
                     "text": "◌̀",
                     "id": "K_V",
                     "nextlayer": "default"
+                    "tplayer": "default"
                   }
                 ]
               }
@@ -650,11 +654,13 @@
                 "text": "*Menu*",
                 "width": 100,
                 "sp": 1
+                "nextlayer": "default"
               },
               {
                 "id": "K_COMMA",
                 "text": ",",
                 "layer": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_SPACE",
