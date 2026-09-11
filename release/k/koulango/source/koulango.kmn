@@ -2,7 +2,7 @@
 c with name "Koulango"
 store(&VERSION) '10.0'
 store(&NAME) 'Koulango'
-store(&COPYRIGHT) 'Copyright © 2026 Yao Seyi'
+store(&COPYRIGHT) 'Copyright © Yao Seyi'
 store(&KEYBOARDVERSION) '1.0'
 store(&BITMAP) 'koulango.ico'
 store(&VISUALKEYBOARD) 'koulango.kvks'
