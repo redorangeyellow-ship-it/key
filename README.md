@@ -1,5 +1,4 @@
 # Open Source Keyman keyboards
-
 ## Table of Contents
 - [File Layout](#file-layout)
 - [Contributing](#contributing)
