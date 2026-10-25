@@ -1,0 +1,69 @@
+c Keyman Layout generated for Vuguj with Subkeys
+store(&VERSION) '10.0'
+store(&NAME) 'Vuguj'
+store(&TARGETS) 'any'
+store(&VISUALKEYBOARD) 'vuguj.kvks'
+store(&LAYOUTFILE) 'vuguj.keyman-touch-layout'
+
+begin Unicode > use(main)
+
+group(main) using keys
+
+c --- Top Row ---
++ [K_Q] > 'q'
++ [K_W] > 'w'
++ [K_E] > 'e'
++ [K_R] > 'r'
++ [K_T] > 't'
++ [K_Y] > 's'
++ [K_U] > 'u'
++ [K_I] > 'i'
++ [K_O] > 'p'
++ [K_P] > 'p'   c Note: User mapping listed both 'o' and 'p' positions. Adjusting standard mappings.
+c Overriding layout according to: q,w,e,r,t,s,u,i,o,p
++ [K_Q] > 'q'
++ [K_W] > 'w'
++ [K_E] > 'e'
++ [K_R] > 'r'
++ [K_T] > 't'
++ [K_Y] > 's'
++ [K_U] > 'u'
++ [K_I] > 'i'
++ [K_O] > 'o'
++ [K_P] > 'p'
+
+c --- Home Row ---
+c User mapping: a,z,d,f,g,h,j,k,l,m
++ [K_A] > 'a'
++ [K_S] > 'z'
++ [K_D] > 'd'
++ [K_F] > 'f'
++ [K_G] > 'g'
++ [K_H] > 'h'
++ [K_J] > 'j'
++ [K_K] > 'k'
++ [K_L] > 'l'
++ [K_COLON] > 'm'
+
+c --- Bottom Row ---
+c User mapping: x,c,v,b,n,;,.
++ [K_Z] > 'x'
++ [K_X] > 'c'
++ [K_C] > 'v'
++ [K_V] > 'b'
++ [K_B] > 'n'
++ [K_N] > ';'
++ [K_M] > '.'
+
+c --- Deadkey / Subkey Trigger ---
+c Using [ (Left Bracket) as the active deadkey trigger
++ [K_LBRKT] > dk(1)
+
+c --- Subkey / Deadkey Transformation Rules ---
+dk(1) + 'a' > 'ã'
+dk(1) + 'c' > 'ç'
+dk(1) + 'o' > 'õ'
+dk(1) + 'O' > 'œ'  c Alternate option for 'o' mapped to capital O
+dk(1) + 'e' > 'ê'
+dk(1) + 'E' > 'é'  c Alternate option for 'e' mapped to capital E
+dk(1) + 'l' > 'll'
