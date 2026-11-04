@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System><KeymanDeveloperVersion>17.0</KeymanDeveloperVersion><FileVersion>7.0</FileVersion></System>
+  <Options><ExecuteProgram></ExecuteProgram><ReadMeFile></ReadMeFile><MSIFileName></MSIFileName><MSIOptions></MSIOptions></Options>
+  <StartMenu><Folder></Folder><Items/></StartMenu>
+  <Info><Name URL="">Maide Ğemi</Name><Copyright URL="">© Maide Ğemi</Copyright><Author URL="">Maide Ğemi</Author><Version URL="">1.0</Version></Info>
+  <Files>
+    <File><Name>sil_panticmatic.js</Name><Description>Keyboard Touch</Description><CopyLocation>0</CopyLocation><FileType>.js</FileType></File>
+    <File><Name>oslovokos_qwertz.js.keyman-touch-layout</Name><Description>Touch layout</Description><CopyLocation>0</CopyLocation><FileType>.keyman-touch-layout</FileType></File>
+  </Files>
+  <Keyboards><Keyboard><Name>Maide Ğemi</Name><ID>maide</ID><Version>1.0</Version><Languages>
+    <Language ID="bdk">Budukh</Language><Language ID="kur">Kurdish</Language><Language ID="tur">Turkish</Language><Language ID="gag">Gagauz</Language><Language ID="uzb">Uzbek</Language>
+  </Languages></Keyboard></Keyboards>
+  <Strings/>
+</Package>
